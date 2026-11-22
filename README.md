@@ -34,6 +34,7 @@ Configure os parâmetros copiando `.env.example` para `.env`.
 | Taxa não positiva ou data futura | ERRO |
 | Nulos acima de 50% nas colunas de PTAX | ALERTA |
 | PTAX venda fora de 0,5 a 20 ou diferença acima de 20% | ALERTA |
+
 Com status ERRO, o Parquet não é gravado. O relatório é gravado sempre.
 
 ## Leitura do resultado
