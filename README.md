@@ -2,6 +2,8 @@
 
 Compara a taxa de câmbio em dólar usada nos PVLs (API Sadipem, Tesouro Nacional) com a PTAX de fechamento do Banco Central no mesmo dia.
 
+Projeto baseado no Desafio de Python da Trilha de Engenheiro de Dados da Compass. A solução começou pelo arquivo original.py, que desenvolvi com meus conhecimentos. Depois utilizei o Claude para gerar uma versão com classes (claudePOO.py) e uma versão com métodos separados, config, requirements, main etc que estão nesse repositório.
+
 ## Como executar
 
 ```bash
