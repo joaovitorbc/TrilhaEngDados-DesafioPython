@@ -1,0 +1,65 @@
+{
+  "gerado_em": "2026-11-22T15:53:49",
+  "status": "OK",
+  "linhas": 23,
+  "checks": [
+    {
+      "check": "linhas",
+      "status": "OK",
+      "detalhe": {
+        "linhas": 23
+      }
+    },
+    {
+      "check": "schema",
+      "status": "OK",
+      "detalhe": {
+        "faltando": [],
+        "tipos_divergentes": {}
+      }
+    },
+    {
+      "check": "null_ratio",
+      "status": "OK",
+      "detalhe": {
+        "ratios": {
+          "id_pleito": 0.0,
+          "num_pvl": 0.0,
+          "interessado": 0.0,
+          "moeda": 0.0,
+          "data": 0.0,
+          "taxa_sadipem": 0.0,
+          "ptax_compra": 0.0435,
+          "ptax_venda": 0.0435,
+          "dif_vs_compra": 0.0435,
+          "dif_vs_venda": 0.0435,
+          "dif_pct_vs_venda": 0.0435
+        },
+        "obrigatorios_com_nulo": [],
+        "ptax_acima_do_limite": []
+      }
+    },
+    {
+      "check": "unicidade",
+      "status": "OK",
+      "detalhe": {
+        "chave": [
+          "id_pleito",
+          "data",
+          "taxa_sadipem"
+        ],
+        "duplicadas": 0
+      }
+    },
+    {
+      "check": "intervalos",
+      "status": "OK",
+      "detalhe": {
+        "taxa_sadipem_nao_positiva": 0,
+        "ptax_venda_fora_da_faixa": 0,
+        "dif_pct_acima_do_limite": 0,
+        "data_futura": 0
+      }
+    }
+  ]
+}
